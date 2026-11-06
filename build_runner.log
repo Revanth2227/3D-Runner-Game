@@ -1,0 +1,640 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-sriha doesn't exist
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16269 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-05T12:44:33Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 3052)
+
+COMMAND LINE ARGUMENTS:
+D:\unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+C:\Users\sriha\Desktop\3D Runner Game
+-executeMethod
+DesertRunnerBuilder.BuildAll
+-logFile
+C:\Users\sriha\Desktop\3D Runner Game\build_runner.log
+Successfully changed project path to: C:\Users\sriha\Desktop\3D Runner Game
+C:/Users/sriha/Desktop/3D Runner Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.Player connection [4968]  Target information:
+
+Player connection [4968]  * "[IP] 192.168.29.195 [Port] 55504 [Flags] 2 [Guid] 84434823 [EditorId] 84434823 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4968] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4968] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sriha" at "2026-10-05T12:44:37.9833452Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3052, path: "D:/unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              8410f2b6660047e5be7c97990e02f829
+  Correlation Id:          0840d2678f8d3cb1769b930ae3e10098
+  External correlation Id: 3772151181466218863
+  Machine Id:              hco3UEInkG2kVk/nIfC0+mOpNn4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sriha" (connect: 4.41s, validation: 0.53s, handshake: 0.16s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sriha-notifications" at "2026-10-05T12:44:38.6874947Z"
+[Licensing::Module] Connected to LicensingClient (PId: 3052, launch time: 0.15, total connection time: 5.11s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469958866167-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.02
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 5.42s
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-15460" after 1.8 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Default GameObject Tag: Player already registered
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 849 unused hashed content files
+Refreshing native plugins compatible for Editor in 8.33 ms, found 0 plugins.
+Initialize engine version: 6000.5.9f1 (b57deb96f08d)
+[Subsystems] Discovering subsystems at path D:/unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sriha/Desktop/3D Runner Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1070 (ID=0x1ba1)
+    Vendor:          NVIDIA
+    VRAM:            8060 MB
+    App VRAM Budget: 7292 MB
+    Driver:          32.0.15.7652
+Initialize mono
+Mono path[0] = 'D:/unity/Hub/Editor/6000.5.9f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/Hub/Editor/6000.5.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.208270 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Licensing::Client] Successfully resolved entitlement details
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.767 seconds
+Domain Reload Profiling: 10537ms
+	BeginReloadAssembly (659ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (151ms)
+	initialDomainReloadingComplete (599ms)
+	LoadAllAssembliesAndSetupDomain (1295ms)
+		LoadAssemblies (662ms)
+		AnalyzeDomain (933ms)
+			TypeCache.Refresh (930ms)
+				TypeCache.ScanAssembly (813ms)
+	FinalizeReload (7769ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (306ms)
+			BeforeProcessingInitializeOnLoad (288ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (6685ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 61 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.timeline@1.8.12 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.xr.openxr@1.17.1 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.xr.openxr@58837b2992e0)
+    com.unity.xr.core-utils@2.6.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.xr.core-utils@a8b900321199)
+    com.unity.xr.management@4.5.4 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.xr.management@e3a3882b360a)
+    com.unity.xr.legacyinputhelpers@3.0.1 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.xr.legacyinputhelpers@3f62d634f63b)
+    com.unity.searcher@4.9.5 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.burst@1.8.30 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.burst@2f3d916873ea)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.render-pipelines.universal@17.5.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.render-pipelines.universal@d7774c218bdf)
+    com.unity.test-framework@1.7.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.test-framework@1405238725ab)
+    com.unity.ugui@2.5.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.ugui@1c4864518158)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+    com.unity.render-pipelines.core@17.5.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.render-pipelines.core@a4c9a9793789)
+    com.unity.shadergraph@17.5.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.shadergraph@8d7376ec43ee)
+    com.unity.render-pipelines.universal-config@17.5.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.render-pipelines.universal-config@fdda01c80fe3)
+    com.unity.collections@6.5.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.collections@ec2c217e4cb2)
+    com.unity.mathematics@1.4.0 (location: C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.mathematics@981956d94fb6)
+[Subsystems] Looking for new subsystems at path C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.xr.openxr@58837b2992e0
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path D:/unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sriha/Desktop/3D Runner Game/Assets
+[Subsystems] Discovering subsystems at path C:\Users\sriha\Desktop\3D Runner Game\Library\PackageCache\com.unity.xr.openxr@58837b2992e0
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Runtime/UnitySubsystemsManifest.json.
+[Package Manager] Done registering packages in 0.06 seconds
+Starting: D:\unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/sriha/Desktop/3D Runner Game
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 1s275ms
+[ 889/1145  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (1.19 seconds), 1 items updated, 1145 evaluated
+AssetDatabase: script compilation time: 4.678051s
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 24.05 ms, found 10 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 14.68 ms, found 10 plugins.
+Starting new worker id: 0 with log in C:/Users/sriha/Desktop/3D Runner Game/Logs/AssetImportWorkerHW0.log
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.826 seconds
+Domain Reload Profiling: 10260ms
+	BeginReloadAssembly (746ms)
+		DisableScriptedObjects (110ms)
+		CreateAndSetChildDomain (224ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (170ms)
+	LoadAllAssembliesAndSetupDomain (2459ms)
+		LoadAssemblies (1741ms)
+		AnalyzeDomain (694ms)
+			TypeCache.Refresh (509ms)
+				TypeCache.ScanAssembly (449ms)
+			BuildScriptInfoCaches (164ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (6828ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			BeforeProcessingInitializeOnLoad (202ms)
+			ProcessInitializeOnLoadAttributes (5307ms)
+			ProcessInitializeOnLoadMethodAttributes (671ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (58ms)
+Importing 'GUID: 3a44c86df5ad9b14395eadac283ca634 - Path: Assets/XR/Settings/OpenXR Package Settings.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 3a44c86df5ad9b14395eadac283ca634' -> (Import Result ID: 'bbadc0f3fbf7ff206b3103b69e9d803a') in 1.217 seconds [static dependencies only]. Details - ImportResultOutputID=efc528a48ec2436dd263f6c6feb30a14 DependenciesID=24be34986103a0465d62f5e1aa540945 StaticDependenciesID=71a469e9d4fafdc0db30436d81c99f04 
+Refreshing native plugins compatible for Editor in 11.39 ms, found 10 plugins.
+
+Asset Pipeline Refresh (id=6bd37b88adb62b941a54b8df677c8935): Total: 19.253 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=3 ms, native=9537 ms
+		Asset DB Callback time: managed=1174 ms, native=113 ms
+		Scripting: domain reloads=1, domain reload time=3572 ms, compile time=4685 ms, other=167 ms
+		Project Asset Count: scripts=1540, non-scripts=2343
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 86.683ms
+	ApplyChangesToAssetFolders: 1.476ms
+	Scan: 329.224ms
+	Collect global state as custom dependencies: 74.989ms
+	OnSourceAssetsModified: 1.690ms
+	CategorizeScriptCompilationAssets: 156.152ms
+	ProcessAssetsWithTransientArtifactChanges: 186.343ms
+	CategorizeAssets: 122.376ms
+	CompileScripts: 4684.747ms
+	ImportOutOfDateAssets: 8181.303ms (6899.983ms without children)
+		ImportManagerImport: 1220.176ms (2.305ms without children)
+		UnloadImportedAssets: 0.634ms
+		ReloadImportedAssets: 0.339ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.481ms
+		ImportSchedulerStart: 58.975ms
+	PostProcessAllAssets: 1176.962ms
+		XRBuildSystem.XRAssetImported 2.749ms
+		MonoPostProcessAllAssets: 1173.534ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 717.260ms
+			AssetPostprocessor.OnPostprocessAllAssets 282.571ms
+			SyncVS.PostprocessSyncProject 49.256ms
+			AssetCallbacks.OnPostprocessAllAssets 37.668ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 24.216ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 9.123ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 5.070ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 5.033ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 3.667ms
+			AssetChangedListener.OnPostprocessAllAssets 3.426ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.640ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.820ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.776ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 1.432ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.327ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.912ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.770ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.690ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.615ms
+			PostProcessor.OnPostprocessAllAssets 0.608ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.561ms
+			AssetEvents.OnPostprocessAllAssets 0.530ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.515ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.495ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.474ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.432ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.410ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.387ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.354ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.330ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.226ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.223ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.171ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.165ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.100ms
+	PostAssetChangesProfiler: 26.507ms
+	UnloadStreamsBegin: 3.531ms
+	PersistCurrentRevisions: 0.319ms
+	GenerateScriptTypeHashes: 4.997ms
+	GenerateScriptTypeSerializationHashes: 9.304ms
+	Untracked: 4186.840ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.44 seconds
+Scanning for USB devices : 1.597ms
+Initializing Unity extensions:
+Worker ready: AssetImportWorkerHW0 0
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Desert Runner
+Unloading 247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7251 unused Assets / (14.0 MB). Loaded Objects now: 8222.
+Memory consumption went from 462.5 MB to 448.5 MB.
+Total: 37.363100 ms (FindLiveObjects: 1.248800 ms CreateObjectMapping: 4.784700 ms MarkObjects: 21.078800 ms  DeleteObjects: 10.246700 ms)
+
+>>> Starting Complete Desert Runner Build Process...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DesertRunnerBuilder:BuildAll () (at Assets/Editor/DesertRunnerBuilder.cs:18)
+
+(Filename: Assets/Editor/DesertRunnerBuilder.cs Line: 18)
+
+Asset Pipeline Refresh (id=6f13a1acfec356449beb27f41ba8af98): Total: 0.170 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Importing 'GUID: a24214376d551ad41a49d8c954d860ac - Path: Assets/Materials/DesertSand.mat' with importer (NativeFormatImporter)
+Imported 'GUID: a24214376d551ad41a49d8c954d860ac' -> (Import Result ID: '131701a599c9031c9a8ffa8cab1b613f') in 0.019 seconds [static dependencies only]. Details - ImportResultOutputID=0d3591798c5a2465fcfb1dabf04bc67e DependenciesID=708a58d0c1c9c73d8a03391a73cdd4dd StaticDependenciesID=1acb0d40007058c509c9488e60abae93 
+Refreshing native plugins compatible for Editor in 9.98 ms, found 10 plugins.
+Asset Pipeline Refresh (id=825445a1afdf5be469df4fc70d2c11cc): Total: 0.216 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: dd1b848f7164c174b92a943841963d25 - Path: Assets/Materials/DesertRoad.mat' with importer (NativeFormatImporter)
+Imported 'GUID: dd1b848f7164c174b92a943841963d25' -> (Import Result ID: '3ae41b37794e005b8b2e8035ed4a8941') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=049573c7e36a76b2f813c5524813c1f1 DependenciesID=d80c561eb93c373e3acc48f7d39d270e StaticDependenciesID=e552a9c14a3e70b1d03d92ec88427fec 
+Refreshing native plugins compatible for Editor in 10.14 ms, found 10 plugins.
+Asset Pipeline Refresh (id=c9ac98a04269d19428ad606fe00c89b0): Total: 0.156 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 68aad274e73e88243946604fb1995075 - Path: Assets/Materials/DesertCurb.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 68aad274e73e88243946604fb1995075' -> (Import Result ID: '2afce5c98cfb0e342bca5a3c8188363b') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=4a8133086c784bf49909566a7238c7ed DependenciesID=7c3db22f5b5cd8b5d0769dfda0334792 StaticDependenciesID=a0932022f68480796375215ad3c514a2 
+Refreshing native plugins compatible for Editor in 11.69 ms, found 10 plugins.
+Asset Pipeline Refresh (id=c1d2e30c1f2bc2245bd2248b41b7289b): Total: 0.154 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: e1da064a910633b4188d870cd7345356 - Path: Assets/Materials/Rock.mat' with importer (NativeFormatImporter)
+Imported 'GUID: e1da064a910633b4188d870cd7345356' -> (Import Result ID: '77c4dd4cdcb32b631a578a9ae8bbcad5') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=650d3399ada1d272f6650611461b958c DependenciesID=d53bbd918d9a21c35e64722b29fd8aac StaticDependenciesID=0ea14cc937d9a038f3e9ae560a104bc1 
+Refreshing native plugins compatible for Editor in 9.97 ms, found 10 plugins.
+Asset Pipeline Refresh (id=56c6cba17b536e34ebb82db3e1ac5e17): Total: 0.141 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 07b4171ec54cd554db4d3a2431abaa99 - Path: Assets/Materials/TreeBark.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 07b4171ec54cd554db4d3a2431abaa99' -> (Import Result ID: 'd992687048578fec0fbaece90b29af19') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c8849f60b10b23a28bfca40cad369b0f DependenciesID=a79eda039ef2c2f7c14c9cf38821bf6a StaticDependenciesID=e8c76ac1e92251858a2e79297d985f8a 
+Refreshing native plugins compatible for Editor in 9.96 ms, found 10 plugins.
+Asset Pipeline Refresh (id=e4bbf75cdf57bac468d8a799cdd86687): Total: 0.143 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 11b8ea3db3e77044093cedf13f26bcfd - Path: Assets/Materials/TreeLeaves.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 11b8ea3db3e77044093cedf13f26bcfd' -> (Import Result ID: '96f8d5771832cb99b68e4c01e8a1005c') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=9541b984aaefd4b5e1a2e8c393b298b3 DependenciesID=be00180b9753af215c0fb652c98dcee4 StaticDependenciesID=29ed9fcc6003d37e66287404d8fcd55f 
+Refreshing native plugins compatible for Editor in 13.29 ms, found 10 plugins.
+Asset Pipeline Refresh (id=f0a8aec3319028743bf9f87bfbcc531a): Total: 0.166 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 646ca41c32cb5024684b98a13858e578 - Path: Assets/Materials/Cactus.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 646ca41c32cb5024684b98a13858e578' -> (Import Result ID: '947c8b9a3397e11e90dfe309bb53e2c6') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=a4fdfc6413f6a63be1888a92263e8e8f DependenciesID=afb807e4a71341cbb40bca021fdc204e StaticDependenciesID=c7e3bc9c333fec5375f83953cd91194f 
+Refreshing native plugins compatible for Editor in 10.58 ms, found 10 plugins.
+Asset Pipeline Refresh (id=b46c710bf7272534080b02358344e68e): Total: 0.150 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: ed10618de06c2a349ac3a9d0a7779540 - Path: Assets/Materials/Crate.mat' with importer (NativeFormatImporter)
+Imported 'GUID: ed10618de06c2a349ac3a9d0a7779540' -> (Import Result ID: '39d57103869152253480c802655aacef') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=4866552f4cb1ad3281b05c838bbdd3c0 DependenciesID=edc2e591fdcb76b259e9b6f7c66d52fd StaticDependenciesID=5c9c89b275ca1fa4edbb786e3232ab5e 
+Refreshing native plugins compatible for Editor in 10.50 ms, found 10 plugins.
+Asset Pipeline Refresh (id=04c710a504940464da284957b0a9ff33): Total: 0.142 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 85e3a7225db801e459e60b65ba85640e - Path: Assets/Materials/Coin.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 85e3a7225db801e459e60b65ba85640e' -> (Import Result ID: 'f0db7564789537d651b8a22882c8a51c') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=eab388402856f92281a6884a3d118f75 DependenciesID=a620ed50df07e251b40404d84fb2fcba StaticDependenciesID=d93f830f54010049b7b33acd75574be4 
+Refreshing native plugins compatible for Editor in 10.30 ms, found 10 plugins.
+Asset Pipeline Refresh (id=4628e522c1b696e49bbf7f6bbdf1d3a1): Total: 0.137 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: f0c02a997c46af04aa7cb292af336529 - Path: Assets/Materials/Gem.mat' with importer (NativeFormatImporter)
+Imported 'GUID: f0c02a997c46af04aa7cb292af336529' -> (Import Result ID: 'ed47398aea3d551ea2b4676d28f9262f') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=d55d61515c40c361d9e172a38cb7ef96 DependenciesID=2313d96290d529535df32d9cbe024d54 StaticDependenciesID=fa2f9701382add53d5f3ac5188eacbce 
+Refreshing native plugins compatible for Editor in 10.49 ms, found 10 plugins.
+Asset Pipeline Refresh (id=4a50298e6d306e542ba6c532c289ca64): Total: 0.143 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 2ea21f156aa15ad4e9ab7c8838975af9 - Path: Assets/Materials/PlayerBody.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 2ea21f156aa15ad4e9ab7c8838975af9' -> (Import Result ID: 'd685706df01a8623c51bafdbc27a1baf') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=f2319ce8e80cfdb50c54a6a2159ce654 DependenciesID=86455a866a9e2479ec4b3843d3a9058f StaticDependenciesID=7ee42e250a2a3143f542e19d61338247 
+Refreshing native plugins compatible for Editor in 11.67 ms, found 10 plugins.
+Asset Pipeline Refresh (id=a86cfd81e03de3948905566fcd4414b8): Total: 0.146 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: d49f2a971ea956a45afc6c401a87a1d6 - Path: Assets/Materials/PlayerSkin.mat' with importer (NativeFormatImporter)
+Imported 'GUID: d49f2a971ea956a45afc6c401a87a1d6' -> (Import Result ID: '32b6dc5f38457efd4127c2ec8b4de793') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=d46f66368efd3ab780098e4572e5e472 DependenciesID=efbd8ed0c9e0bfb672d7a8a4b9d7d9dc StaticDependenciesID=39666da9a041371aa99d8b05a26e54d7 
+Refreshing native plugins compatible for Editor in 11.58 ms, found 10 plugins.
+Asset Pipeline Refresh (id=ba01f818a31d6604ca2cdc782ff9300b): Total: 0.161 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: afa5c857ee636614c8419a35d0f7f7b1 - Path: Assets/Materials/PlayerAccent.mat' with importer (NativeFormatImporter)
+Imported 'GUID: afa5c857ee636614c8419a35d0f7f7b1' -> (Import Result ID: 'c57997e9a45540f8e19b4e82ed960e46') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=3479d6a57beb5c945d8688b22a8b18f5 DependenciesID=823c0182ca5366e44226e4bb5975f3be StaticDependenciesID=8070c31bad8c735679bce1883c4b7804 
+Refreshing native plugins compatible for Editor in 12.00 ms, found 10 plugins.
+Asset Pipeline Refresh (id=524e7d443995d5a49a8fdf1089bbd133): Total: 0.157 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: a65009d679a8b4547b76f129fbc8f7db - Path: Assets/Materials/PlayerLegs.mat' with importer (NativeFormatImporter)
+Imported 'GUID: a65009d679a8b4547b76f129fbc8f7db' -> (Import Result ID: '59bb9103e40a3b7e914908a78f337444') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=d8cd3a7dbc58c55125954f1961bdc422 DependenciesID=dacd6a1c93d346d08d63314fb68eae06 StaticDependenciesID=a44fb6ba10c2531a9defa752f7b53cc4 
+Refreshing native plugins compatible for Editor in 11.50 ms, found 10 plugins.
+Asset Pipeline Refresh (id=e52b663d73105c74c93ffc037bc3ab4c): Total: 0.155 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: f0c02a997c46af04aa7cb292af336529 - Path: Assets/Materials/Gem.mat' with importer (NativeFormatImporter)
+Imported 'GUID: f0c02a997c46af04aa7cb292af336529' -> (Import Result ID: 'dc5953d2b67594ac923bf1e482b0ddb8') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=d55d61515c40c361d9e172a38cb7ef96 DependenciesID=74ec6949e66145b3fc61089a8bb9ae39 StaticDependenciesID=82158630726d868fb30d7164e6f92684 
+Importing 'GUID: 11b8ea3db3e77044093cedf13f26bcfd - Path: Assets/Materials/TreeLeaves.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 11b8ea3db3e77044093cedf13f26bcfd' -> (Import Result ID: '2bfcaa769befa03deccadd5876cb3893') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=9541b984aaefd4b5e1a2e8c393b298b3 DependenciesID=da626f1f42ad0011157bc94585eaa51c StaticDependenciesID=044822fb2a88fa86a37431819086e414 
+Importing 'GUID: e1da064a910633b4188d870cd7345356 - Path: Assets/Materials/Rock.mat' with importer (NativeFormatImporter)
+Imported 'GUID: e1da064a910633b4188d870cd7345356' -> (Import Result ID: '969f1fe4bb1f81cad21ed79ea1f4dd3d') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=650d3399ada1d272f6650611461b958c DependenciesID=30a91f16bf8a3bee47c92789a2f92144 StaticDependenciesID=9ecb0754f739e6261ec714e20b2d40b6 
+Importing 'GUID: a24214376d551ad41a49d8c954d860ac - Path: Assets/Materials/DesertSand.mat' with importer (NativeFormatImporter)
+Imported 'GUID: a24214376d551ad41a49d8c954d860ac' -> (Import Result ID: '4abc64c501c54e405b223abcb4129659') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=0d3591798c5a2465fcfb1dabf04bc67e DependenciesID=09d4ea0a2ed7011f24bd261108505f37 StaticDependenciesID=4f8f054d0f4670885e0700bc4034d8b8 
+Importing 'GUID: 646ca41c32cb5024684b98a13858e578 - Path: Assets/Materials/Cactus.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 646ca41c32cb5024684b98a13858e578' -> (Import Result ID: '5a5abf64210ddc91d86de0569ffeb747') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=a4fdfc6413f6a63be1888a92263e8e8f DependenciesID=cd01bd0f4be6476d56f50751abf7d2bc StaticDependenciesID=a26c1cf8672532b5bf65e206e7d56c6c 
+Importing 'GUID: d49f2a971ea956a45afc6c401a87a1d6 - Path: Assets/Materials/PlayerSkin.mat' with importer (NativeFormatImporter)
+Imported 'GUID: d49f2a971ea956a45afc6c401a87a1d6' -> (Import Result ID: 'b4ab00b7dd96842a00bc2945efe72563') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=d46f66368efd3ab780098e4572e5e472 DependenciesID=7f8f7a92689fb81ee874186ca476478a StaticDependenciesID=95fdce012c80d69893ee977de9d8ba9d 
+Importing 'GUID: 85e3a7225db801e459e60b65ba85640e - Path: Assets/Materials/Coin.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 85e3a7225db801e459e60b65ba85640e' -> (Import Result ID: 'a74a77711ef0bc4757216f2344b1eb4a') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=eab388402856f92281a6884a3d118f75 DependenciesID=5d440f35e4d4a5dfb326602709774c1d StaticDependenciesID=0cbc574b5a42bd828242ec394aa8219b 
+Importing 'GUID: a65009d679a8b4547b76f129fbc8f7db - Path: Assets/Materials/PlayerLegs.mat' with importer (NativeFormatImporter)
+Imported 'GUID: a65009d679a8b4547b76f129fbc8f7db' -> (Import Result ID: '40a9594127e4400913de26f4a5ac4d1b') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=d8cd3a7dbc58c55125954f1961bdc422 DependenciesID=e733d06299d61154f99e4f3d9840c048 StaticDependenciesID=8a78f147dfaca9998fb7cc62d47f205c 
+Importing 'GUID: 07b4171ec54cd554db4d3a2431abaa99 - Path: Assets/Materials/TreeBark.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 07b4171ec54cd554db4d3a2431abaa99' -> (Import Result ID: 'fd703fea91ebf560bcb8930de70b908a') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=c8849f60b10b23a28bfca40cad369b0f DependenciesID=70cba88cf1f538cbf853c7176e6e3bbc StaticDependenciesID=1623fe2ff0c296675f77d263691e0ced 
+Importing 'GUID: 68aad274e73e88243946604fb1995075 - Path: Assets/Materials/DesertCurb.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 68aad274e73e88243946604fb1995075' -> (Import Result ID: '62c8d81e9d1263681795d87f8d5aaf1b') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=4a8133086c784bf49909566a7238c7ed DependenciesID=b0ba90dd1acf772b4d8f3612041541e6 StaticDependenciesID=191edd82a2039facb5a2fceed5a9809b 
+Importing 'GUID: dd1b848f7164c174b92a943841963d25 - Path: Assets/Materials/DesertRoad.mat' with importer (NativeFormatImporter)
+Imported 'GUID: dd1b848f7164c174b92a943841963d25' -> (Import Result ID: '6f0680d261aa500db12db1d4b6b79dc2') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=049573c7e36a76b2f813c5524813c1f1 DependenciesID=3ea2411d2aa80ea53bcf559ea8d7008d StaticDependenciesID=c12f7c4b802af9e535003caab711ed90 
+Importing 'GUID: ed10618de06c2a349ac3a9d0a7779540 - Path: Assets/Materials/Crate.mat' with importer (NativeFormatImporter)
+Imported 'GUID: ed10618de06c2a349ac3a9d0a7779540' -> (Import Result ID: 'ba7678183217b39d23b516f7da83fbde') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=4866552f4cb1ad3281b05c838bbdd3c0 DependenciesID=e19e82d7ba72184a5672304c5796ec2c StaticDependenciesID=0d9a5527875d3c8b42ba1078963b1f46 
+Importing 'GUID: 2ea21f156aa15ad4e9ab7c8838975af9 - Path: Assets/Materials/PlayerBody.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 2ea21f156aa15ad4e9ab7c8838975af9' -> (Import Result ID: '3bc7a05b3fc65d0b979145ad69beadd0') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=f2319ce8e80cfdb50c54a6a2159ce654 DependenciesID=83f9c1c225627f662a5445df8b3771bd StaticDependenciesID=42753a496c041f5b85fb0f54643be246 
+Importing 'GUID: afa5c857ee636614c8419a35d0f7f7b1 - Path: Assets/Materials/PlayerAccent.mat' with importer (NativeFormatImporter)
+Imported 'GUID: afa5c857ee636614c8419a35d0f7f7b1' -> (Import Result ID: '7bb21b883398f849950ef9e2b70b0244') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=3479d6a57beb5c945d8688b22a8b18f5 DependenciesID=b2a3a33441d902ec44ddba968d9e769d StaticDependenciesID=8faba54dcd9f02db2ec3c6ab5dd24df2 
+Refreshing native plugins compatible for Editor in 11.71 ms, found 10 plugins.
+Asset Pipeline Refresh (id=6044c159c0817d949aa35f9f1b2ef4f1): Total: 0.233 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: f36f32fbefdf861499ac6d9d632beb03 - Path: Assets/Prefabs/Player.prefab' with importer (PrefabImporter)
+Imported 'GUID: f36f32fbefdf861499ac6d9d632beb03' -> (Import Result ID: '877103da61ab2d4031213d65bca55b7c') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=25b61aad2d51eab2e8a4d3996742be9d DependenciesID=6866cbca96439031a8d426f6dbae810f StaticDependenciesID=63663d73f11499010bf83d96f9d66ecf 
+Refreshing native plugins compatible for Editor in 12.08 ms, found 10 plugins.
+Asset Pipeline Refresh (id=c26f29d719dda074f8aff71b7c9a5981): Total: 0.173 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 1dafcd0ffdbbffc489a4ee0c16e4c039 - Path: Assets/Prefabs/Coin.prefab' with importer (PrefabImporter)
+Imported 'GUID: 1dafcd0ffdbbffc489a4ee0c16e4c039' -> (Import Result ID: 'c255008f2b43a5025d41d1c00272c118') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f787046f56006dcb76ce084a9f44ee4 DependenciesID=f10790adce266ca038190f3ae05c054c StaticDependenciesID=053a633d41b3bfb8b2adc6af3f416c1d 
+Refreshing native plugins compatible for Editor in 13.30 ms, found 10 plugins.
+Asset Pipeline Refresh (id=ff5a512c48afdb04ca4a38cf905f4475): Total: 0.203 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 68b6e90a015b8c04dbe3ef8873c933ab - Path: Assets/Prefabs/Gem.prefab' with importer (PrefabImporter)
+Imported 'GUID: 68b6e90a015b8c04dbe3ef8873c933ab' -> (Import Result ID: 'ed6a7a8ef84a9ce0ef3a083523fe1208') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=54fe6de2c6e0dfa08af4eaf9433245c3 DependenciesID=676970bc261e1162465e43cb12da6ae2 StaticDependenciesID=d489f683fa51e8e92d78bd5ccfae586e 
+Refreshing native plugins compatible for Editor in 12.31 ms, found 10 plugins.
+Asset Pipeline Refresh (id=9b9494d105167bd4993b84e8229225f2): Total: 0.222 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 289f85c305004e44295bc4c342482d8c - Path: Assets/Prefabs/Tree.prefab' with importer (PrefabImporter)
+Imported 'GUID: 289f85c305004e44295bc4c342482d8c' -> (Import Result ID: 'b848e57e67693113dd9488fd602caf38') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8b0781171f23d69006ed18ad2a2e396d DependenciesID=d0600308919656e673a51e556d85895a StaticDependenciesID=abd5acc2cc888af2681848ec04b89ea2 
+Refreshing native plugins compatible for Editor in 11.54 ms, found 10 plugins.
+Asset Pipeline Refresh (id=00111cd891a195742ad7bfc0f1c4c162): Total: 0.205 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: e6ba70c94aa67dc458af4b0f34df1097 - Path: Assets/Prefabs/Rock.prefab' with importer (PrefabImporter)
+Imported 'GUID: e6ba70c94aa67dc458af4b0f34df1097' -> (Import Result ID: 'a905536952079dcae7c73f5a95a050a7') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11c588cc3953543ba2156384a6b5765d DependenciesID=c639151ee9bd7e5dc870e661a57b7eaa StaticDependenciesID=82203f439970519b2779351e757dd60d 
+Refreshing native plugins compatible for Editor in 13.50 ms, found 10 plugins.
+Asset Pipeline Refresh (id=b0c2275f39fa7da40adb26be49a1512d): Total: 0.194 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 2d7fe810cbca729419710cec836cc40c - Path: Assets/Prefabs/Crate.prefab' with importer (PrefabImporter)
+Imported 'GUID: 2d7fe810cbca729419710cec836cc40c' -> (Import Result ID: '01b66cfdc379e81bee1af42118ce8329') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01f804ed14f657276a809614fcde7dbf DependenciesID=605a815382ea013b18c8cc41b2075723 StaticDependenciesID=9ac2af8fb2a7d3553b337599a8db7228 
+Refreshing native plugins compatible for Editor in 10.79 ms, found 10 plugins.
+Asset Pipeline Refresh (id=bfd588b83c1a6b042bfe6a21d57da8e6): Total: 0.157 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 76414d16711c81a41a785a90654c6719 - Path: Assets/Prefabs/Cactus.prefab' with importer (PrefabImporter)
+Imported 'GUID: 76414d16711c81a41a785a90654c6719' -> (Import Result ID: '860ceee48eaa675b9786f52ba9bd5435') in 0.010 seconds [static dependencies only]. Details - ImportResultOutputID=33b7440d5b4f7a1972ecb05f882bd24c DependenciesID=31e108cc9c0a64bfe4223307887ff0e8 StaticDependenciesID=920d307e7140268bab9b4ff9ca094313 
+Refreshing native plugins compatible for Editor in 10.34 ms, found 10 plugins.
+Asset Pipeline Refresh (id=239ab35ba48333b4781b5d5963f5a14c): Total: 0.158 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 022013867c1fad04a805b4f866b62984 - Path: Assets/Prefabs/DesertRock.prefab' with importer (PrefabImporter)
+Imported 'GUID: 022013867c1fad04a805b4f866b62984' -> (Import Result ID: 'eed031a5ba3a626136720dd9c4da63bb') in 0.010 seconds [static dependencies only]. Details - ImportResultOutputID=2f97cfcc288e65f1397169bea1d9a520 DependenciesID=2a4f96a591a6861c8647bee5670c68db StaticDependenciesID=f19df26c34b6381e504657afb186b3e5 
+Refreshing native plugins compatible for Editor in 14.21 ms, found 10 plugins.
+Asset Pipeline Refresh (id=af81672f5b87d58418b50e1801a3e80e): Total: 0.197 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 7ca373490b979be45b9758d03d4656fd - Path: Assets/Prefabs/DesertSegment.prefab' with importer (PrefabImporter)
+Imported 'GUID: 7ca373490b979be45b9758d03d4656fd' -> (Import Result ID: '1bcd22818008cb8a5d6b6d1dd9c0f535') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2d73297dff61d34ff2084491604bbb8b DependenciesID=5a58f479b9c31cde73f486353d98b53b StaticDependenciesID=d7b12d44f1fd7782d4e24d9f253e7edd 
+Refreshing native plugins compatible for Editor in 12.24 ms, found 10 plugins.
+Asset Pipeline Refresh (id=37c069957aafde74bbd04fffa178cfd5): Total: 0.172 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded audio: desert_music.wav
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DesertRunnerBuilder:CreateAudioAssignments () (at Assets/Editor/DesertRunnerBuilder.cs:569)
+DesertRunnerBuilder:BuildAll () (at Assets/Editor/DesertRunnerBuilder.cs:23)
+
+(Filename: Assets/Editor/DesertRunnerBuilder.cs Line: 569)
+
+Loaded audio: coin_collect.wav
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DesertRunnerBuilder:CreateAudioAssignments () (at Assets/Editor/DesertRunnerBuilder.cs:569)
+DesertRunnerBuilder:BuildAll () (at Assets/Editor/DesertRunnerBuilder.cs:23)
+
+(Filename: Assets/Editor/DesertRunnerBuilder.cs Line: 569)
+
+Loaded audio: gem_collect.wav
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DesertRunnerBuilder:CreateAudioAssignments () (at Assets/Editor/DesertRunnerBuilder.cs:569)
+DesertRunnerBuilder:BuildAll () (at Assets/Editor/DesertRunnerBuilder.cs:23)
+
+(Filename: Assets/Editor/DesertRunnerBuilder.cs Line: 569)
+
+Loaded audio: obstacle_crash.wav
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DesertRunnerBuilder:CreateAudioAssignments () (at Assets/Editor/DesertRunnerBuilder.cs:569)
+DesertRunnerBuilder:BuildAll () (at Assets/Editor/DesertRunnerBuilder.cs:23)
+
+(Filename: Assets/Editor/DesertRunnerBuilder.cs Line: 569)
+
+Loaded audio: button_click.wav
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DesertRunnerBuilder:CreateAudioAssignments () (at Assets/Editor/DesertRunnerBuilder.cs:569)
+DesertRunnerBuilder:BuildAll () (at Assets/Editor/DesertRunnerBuilder.cs:23)
+
+(Filename: Assets/Editor/DesertRunnerBuilder.cs Line: 569)
+
+Loaded audio: game_over.wav
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DesertRunnerBuilder:CreateAudioAssignments () (at Assets/Editor/DesertRunnerBuilder.cs:569)
+DesertRunnerBuilder:BuildAll () (at Assets/Editor/DesertRunnerBuilder.cs:23)
+
+(Filename: Assets/Editor/DesertRunnerBuilder.cs Line: 569)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 236 unused Assets / (147.6 KB). Loaded Objects now: 8225.
+Memory consumption went from 397.1 MB to 397.0 MB.
+Total: 14.929000 ms (FindLiveObjects: 0.650500 ms CreateObjectMapping: 1.767600 ms MarkObjects: 12.080600 ms  DeleteObjects: 0.429000 ms)
+
+Importing 'GUID: 45c596a29ac4493438dad8038c9cd17f - Path: Assets/Scenes/MainMenu.unity' with importer (DefaultImporter)
+Imported 'GUID: 45c596a29ac4493438dad8038c9cd17f' -> (Import Result ID: '64af5d3c87dc5ba63a2a63c154d66781') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=816e8435be9ce55f02bdc25dcf3248fc DependenciesID=1e3fb7d57962a9548729c9d05bf0f340 StaticDependenciesID=e12bc30cac67d3cbd5bcc420576ce3d9 
+Refreshing native plugins compatible for Editor in 13.16 ms, found 10 plugins.
+Asset Pipeline Refresh (id=af5eb231703141d4eb29f2e722f8bfa5): Total: 0.195 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 178 unused Assets / (144.4 KB). Loaded Objects now: 8234.
+Memory consumption went from 425.4 MB to 425.3 MB.
+Total: 19.236600 ms (FindLiveObjects: 0.676700 ms CreateObjectMapping: 2.121200 ms MarkObjects: 15.877600 ms  DeleteObjects: 0.552500 ms)
+
+Importing 'GUID: f669987798d8cc549861e9edb1960f3e - Path: Assets/Scenes/Information.unity' with importer (DefaultImporter)
+Imported 'GUID: f669987798d8cc549861e9edb1960f3e' -> (Import Result ID: '63f60a5aaeb52e5d39b59f93e7efc539') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=d8dc97b8b7fff4044c8caa92d262c176 DependenciesID=9d9b40079aeeb64a0e22734e1873dc8a StaticDependenciesID=9a355bb0d97e65c730c21d400ec502ef 
+Refreshing native plugins compatible for Editor in 11.45 ms, found 10 plugins.
+Asset Pipeline Refresh (id=24265eb1028c24549ba59452419e8b4b): Total: 0.172 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 172 unused Assets / (138.3 KB). Loaded Objects now: 8234.
+Memory consumption went from 429.3 MB to 429.2 MB.
+Total: 18.952200 ms (FindLiveObjects: 1.117300 ms CreateObjectMapping: 1.927600 ms MarkObjects: 15.510900 ms  DeleteObjects: 0.393600 ms)
+
+Importing 'GUID: 6cd04031e81cc5c429e91a76f0bb076d - Path: Assets/Scenes/StageSelect.unity' with importer (DefaultImporter)
+Imported 'GUID: 6cd04031e81cc5c429e91a76f0bb076d' -> (Import Result ID: '8ad55baa5e05fa4dcff250878189cd1a') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=c9bff14dd0d70b44e4117679e2b7f492 DependenciesID=76644c3392ab304974c5ddaa35042eb1 StaticDependenciesID=6fc0752bd7ab1528abc8d7fb0b3d48c2 
+Refreshing native plugins compatible for Editor in 11.96 ms, found 10 plugins.
+Asset Pipeline Refresh (id=12c1154a9799af74da1a32a6bd2ac70b): Total: 0.170 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 172 unused Assets / (137.0 KB). Loaded Objects now: 8234.
+Memory consumption went from 433.5 MB to 433.4 MB.
+Total: 18.893600 ms (FindLiveObjects: 0.866600 ms CreateObjectMapping: 1.956100 ms MarkObjects: 15.583500 ms  DeleteObjects: 0.485900 ms)
+
+Importing 'GUID: 208401ca25c5dcf448b820d3303f1b2f - Path: Assets/Scenes/GamePlay.unity' with importer (DefaultImporter)
+Imported 'GUID: 208401ca25c5dcf448b820d3303f1b2f' -> (Import Result ID: '0f2581707dd61b7104fd176775c4594d') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=35cca5b9ed586a90b0298dd9339baff2 DependenciesID=c73f49810fa79e0a37ffbf41e7040e69 StaticDependenciesID=0b81f7d8a115ca1b93911289689e6fb4 
+Refreshing native plugins compatible for Editor in 12.15 ms, found 10 plugins.
+Asset Pipeline Refresh (id=92d2fd35a1cb42e40ba7d361150eef38): Total: 0.167 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Configured EditorBuildSettings scenes: MainMenu (0), Information (1), StageSelect (2), GamePlay (3).
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DesertRunnerBuilder:SetupBuildSettings () (at Assets/Editor/DesertRunnerBuilder.cs:1036)
+DesertRunnerBuilder:BuildAll () (at Assets/Editor/DesertRunnerBuilder.cs:28)
+
+(Filename: Assets/Editor/DesertRunnerBuilder.cs Line: 1036)
+
+AcceleratorClientConnectionCallback - disconnected - :0
+Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: 'beafcfee4cae3dc7a0fc049999a10ce1') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=4647dd083cfc32cebcd7526e8846440c DependenciesID=a5c9bd64314555ec4eb02d47bc715568 StaticDependenciesID=2942d251e053360f73b5e5a98fc7185b 
+Refreshing native plugins compatible for Editor in 11.48 ms, found 10 plugins.
+Asset Pipeline Refresh (id=2aefd166e17402b4494077d4928bcc55): Total: 0.205 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=b7def079cc1ea934aa64b867bddd40dc): Total: 0.028 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+>>> Desert Runner Build Completed Successfully! All scenes, prefabs, materials, and scripts configured.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+DesertRunnerBuilder:BuildAll () (at Assets/Editor/DesertRunnerBuilder.cs:33)
+
+(Filename: Assets/Editor/DesertRunnerBuilder.cs Line: 33)
+
+Batchmode quit successfully invoked - shutting down!
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-sriha-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-sriha channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

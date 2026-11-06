@@ -1,0 +1,22 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sriha" at "2026-10-05T13:07:45.2214851Z"
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16269 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-05T13:07:45Z
+
+COMMAND LINE ARGUMENTS:
+D:\unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+C:\Users\sriha\Desktop\3D Runner Game
+-executeMethod
+DesertRunnerBuilder.BuildAll
+-logFile
+C:\Users\sriha\Desktop\3D Runner Game\build_upgrade.log
+Successfully changed project path to: C:\Users\sriha\Desktop\3D Runner Game
+C:/Users/sriha/Desktop/3D Runner Game
+Exiting without the bug reporter. Application will terminate with return code 1
